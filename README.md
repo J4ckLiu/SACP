@@ -18,10 +18,13 @@ with the following arguments:
 - base_score: the standard non-coformity score, incuding ```APS, RAPS, SAPS.```
 
 
+```bibtex
 @article{liu2024spatial,
   title={Spatial-Aware Conformal Prediction for Trustworthy Hyperspectral Image Classification},
   author={Liu, Kangdao and Sun, Tianhao and Zeng, Hao and Zhang, Yongshan and Pun, Chi-Man and Vong, Chi-Man},
   journal={arXiv preprint arXiv:2409.01236},
   year={2024}
 }
+```
+
 
