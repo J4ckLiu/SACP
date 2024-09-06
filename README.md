@@ -1,5 +1,22 @@
 # Spatial-Aware Conformal Prediction for Trustworthy Hyperspectral Image Classification
 
+## Preparation
+### Environment
+```
+pip install -r requirements.txt
+```
+### Prepare datasets and pretrained models.
+```
+├── datasets
+│   └── ip
+│       ├── Indian_pines_corrected.mat
+│       └── Indian_pines_gt.mat
+└── pretrained
+    └── sstn
+        └── sstn_ip.pth
+```
+
+
 ## How to Run
 
 Calculating non-conformity scores with SACP
@@ -17,7 +34,8 @@ with the following arguments:
 - alpha: the user-specified error rate.
 - base_score: the standard non-coformity score, incuding ```APS, RAPS, SAPS.```
 
-
+## Citation
+If you find this work useful for your research, please cite:
 ```
 @article{liu2024spatial,
   title={Spatial-Aware Conformal Prediction for Trustworthy Hyperspectral Image Classification},

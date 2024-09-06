@@ -26,7 +26,7 @@ if __name__ == "__main__":
     base_score = args.base_score
 
     data_dir = './datasets'
-    model_dir = './pretrained'
+    model_dir = f"./pretrained/{model_name}/{model_name}_{data_name}.pth"
 
     model = build_model(model_name, data_name)
     data_dict = build_dataloader(model_name, data_name, data_dir)
